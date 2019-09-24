@@ -1,0 +1,26 @@
+{
+  "name": "react-with-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/server.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server \" \"npm run client \" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaulino04/react-with-devops.git"
+  },
+  "author": "jp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaulino04/react-with-devops/issues"
+  },
+  "homepage": "https://github.com/jpaulino04/react-with-devops#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
